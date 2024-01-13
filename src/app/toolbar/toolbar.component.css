@@ -5,16 +5,26 @@
     align-items: center;
     justify-content:space-between;
     padding-left:30px;
-    padding-right:30px;
+    padding-right:70px;
     margin-top:2rem;
 }
 
-.search{
+.search, .user{
     display:flex;
     align-items: center;
     background-color: #222225;
     border-radius:100vw;
     padding: 0.4rem 0.9rem;
+    justify-content: space-between;
+}
+
+.search{
+    width: 70%;
+}
+
+.search>div{
+    display: flex;
+    width: 300px;
 }
 
 mat-icon{
@@ -27,7 +37,7 @@ mat-icon{
     color: #535353;
     font-size: 0.9rem;
     font-weight: 500;
-    margin-left:0.2rem;
+    margin-left:0.4rem;
 }
 
 .search button{
@@ -39,4 +49,27 @@ mat-icon{
     font-weight: 500;
     padding:.5rem .9rem;
     border-radius: 100vw;
+}
+
+.user{
+    gap:1rem;
+}
+
+.image{
+    width:2rem;
+    height: 2rem;
+    
+}
+.image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+.person{
+    color: #f7f7f7;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: .7px;
 }
