@@ -1,0 +1,42 @@
+.toolbar{
+    width:100%;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left:30px;
+    padding-right:30px;
+    margin-top:2rem;
+}
+
+.search{
+    display:flex;
+    align-items: center;
+    background-color: #222225;
+    border-radius:100vw;
+    padding: 0.4rem 0.9rem;
+}
+
+mat-icon{
+    color:#535353
+}
+.search input{
+    border:none;
+    outline:none;
+    background-color: transparent;
+    color: #535353;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-left:0.2rem;
+}
+
+.search button{
+    border:none;
+    outline:none;
+    background-color: #323232;
+    color: #f7f7f7;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding:.5rem .9rem;
+    border-radius: 100vw;
+}
