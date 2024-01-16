@@ -7,12 +7,14 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { DiscoverComponent } from './discover/discover.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    DiscoverComponent
   ],
   imports: [
     BrowserModule,
