@@ -24,7 +24,7 @@
 
 .search>div{
     display: flex;
-    width: 300px;
+    max-width: 300px;
 }
 
 mat-icon{
@@ -56,9 +56,8 @@ mat-icon{
 }
 
 .image{
-    width:2rem;
-    height: 2rem;
-    
+    width:1.9rem;
+    height: 1.9rem;
 }
 .image img{
     width:100%;
@@ -73,3 +72,4 @@ mat-icon{
     font-weight: 700;
     letter-spacing: .7px;
 }
+

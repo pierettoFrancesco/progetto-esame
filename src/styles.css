@@ -4,15 +4,13 @@
     box-sizing: border-box;
     font-family: 'System-ui', sans-serif;
 }
+
 body{
     background: #16161D;
     color: #f7f7f7;
-    position: relative;
-    width:100svw;
-    height: 100svh;
 }
 
 app-root{
     display: grid;
-    grid-template-columns: 10rem 1fr;
+    grid-template-columns: auto 1fr;
 }

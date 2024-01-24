@@ -2,8 +2,8 @@ nav{
    display:grid;
    grid-template-rows: 5rem 1fr 1fr;
    padding-left:0.4rem;
-   width:10rem; 
-   height: 100svh;
+   max-width:10rem; 
+   min-height: 100svh;
 }
 
 .title{
@@ -64,76 +64,39 @@ nav{
     justify-content: center;
     align-items: center;
 }
-/*.title{
-    font-size: 2em;
-    color: #f9f9f3;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.2px;
-    text-shadow: 1.5px 1.5px 1.5px #CE4A7EFF;
-    margin-top:20px;
-}
 
-.nav-content{
-    text-align: left;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap:2em;
-    color: rgba(249, 249, 243, 0.5);
-}
+/*@media screen and (max-width: 768px){
+    nav{
+        width:3rem;
+    }
 
-.nav-content p{
-    font-size: 1.1em;
-    text-transform: lowercase;
-    margin-bottom:15px;
-    color: rgba(249, 249, 243, 0.3);
-}
-.nav-list li{
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap:15px;
-    margin-bottom: 10px;
-}
+    .title{
+        font-size: 0.8rem;
+    }
+    
+    .nav-group>p{
+        font-size:0.7rem;
+    }
 
-.nav-list li span::after{
-    content: '';
-    display: block;
-    width: 0%;
-    height: 2.5px;
-    margin:0 auto;
-    background-color: #CE4A7EFF;
-    transition: width 0.3s ease-in-out;
-    border-radius:25px;
-}
+    .nav-group>div>div{
+        background-color: #ff69b4;
+        border-radius:100vw;
+        width:30px;
+        height:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.nav-list li:hover span::after{
-    width: 100%;
-}
+    .nav-group>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        font-size: 0.3rem;
+    }
 
-.nav-list li:hover mat-icon{
-    color: #f9f9f3;
-}
-
-.nav-list li:hover a{
-    color: #f9f9f3;
-}
-
-span{
-    font-size: 1.5em;
-    width:30px;
-    aspect-ratio: 1/1;
-    text-align: center;
-}
-.nav-list li a{
-    text-decoration: none;
-    color: rgba(249, 249, 243, 0.5);
-    font-size: 1.1em;
-    font-weight: 500;
-    letter-spacing: 0.2px;
-}
-
-.active{
-    color: #f9f9f3;
+    .nav-group>div{
+        font-size: 1rem;
+    }
 }*/
